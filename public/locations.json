@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "EA Sports Club - Dhanmondi",
+    "address": "27 Dhanmondi Rd 7A, Dhaka",
+    "latitude": 23.7465,
+    "longitude": 90.3760
+  },
+  {
+    "id": 2,
+    "name": "EA Sports Arena - Gulshan",
+    "address": "Gulshan-2, Dhaka",
+    "latitude": 23.7925,
+    "longitude": 90.4078
+  },
+  {
+    "id": 3,
+    "name": "EA Practice Ground - Mirpur",
+    "address": "Mirpur Stadium Road, Dhaka",
+    "latitude": 23.8041,
+    "longitude": 90.3666
+  },
+  {
+    "id": 4,
+    "name": "EA Indoor Sports - Banani",
+    "address": "Banani Block C, Dhaka",
+    "latitude": 23.7948,
+    "longitude": 90.4043
+  },
+  {
+    "id": 5,
+    "name": "EA Sports Center - Uttara",
+    "address": "Sector 7, Uttara, Dhaka",
+    "latitude": 23.8748,
+    "longitude": 90.3984
+  },
+  {
+    "id": 6,
+    "name": "EA Football Turf - Mohammadpur",
+    "address": "Asad Gate, Mohammadpur, Dhaka",
+    "latitude": 23.7608,
+    "longitude": 90.3654
+  },
+  {
+    "id": 7,
+    "name": "EA Fitness Zone - Badda",
+    "address": "North Badda, Dhaka",
+    "latitude": 23.7806,
+    "longitude": 90.4263
+  },
+  {
+    "id": 8,
+    "name": "EA Cricket Ground - Tejgaon",
+    "address": "Tejgaon, Dhaka",
+    "latitude": 23.7639,
+    "longitude": 90.4065
+  },
+  {
+    "id": 9,
+    "name": "EA Basketball Court - Shantinagar",
+    "address": "Shantinagar, Dhaka",
+    "latitude": 23.7384,
+    "longitude": 90.4180
+  },
+  {
+    "id": 10,
+    "name": "EA Tennis Club - Wari",
+    "address": "Tipu Sultan Rd, Wari, Dhaka",
+    "latitude": 23.7211,
+    "longitude": 90.4172
+  },
+  {
+    "id": 11,
+    "name": "EA Sports Hub - Khilgaon",
+    "address": "Taltola, Khilgaon, Dhaka",
+    "latitude": 23.7374,
+    "longitude": 90.4268
+  },
+  {
+    "id": 12,
+    "name": "EA Arena - Farmgate",
+    "address": "Farmgate, Dhaka",
+    "latitude": 23.7579,
+    "longitude": 90.3880
+  }
+]
