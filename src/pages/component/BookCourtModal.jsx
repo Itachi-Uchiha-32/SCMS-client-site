@@ -40,7 +40,7 @@ const BookCourtModal = ({ court, closeModal }) => {
 
   return (
     <div data-aos="fade-up" className="fixed inset-0 bg-white/30 backdrop-blur-sm flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-6 w-full max-w-md relative shadow-2xl">
+      <div className="bg-base-100 rounded-lg p-6 w-full max-w-md relative shadow-2xl">
         <button
           className="absolute top-2 right-2 text-xl font-bold text-gray-600 hover:text-red-600 cursor-pointer"
           onClick={closeModal}

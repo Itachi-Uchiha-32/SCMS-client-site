@@ -17,7 +17,7 @@ const CourtCard = ({ court }) => {
   };
 
   return (
-    <div className="bg-white shadow-lg rounded-xl p-4">
+    <div className="bg-base-100 shadow-xl rounded-xl p-4">
       <img
         src={court.image}
         alt={court.courtType}

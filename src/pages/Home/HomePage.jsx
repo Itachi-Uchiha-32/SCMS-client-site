@@ -6,17 +6,21 @@ import About from './About';
 import LocationSection from './LocationSection';
 import Promotions from './Promotions';
 import useTitle from '../../hooks/useTitle';
+import FeaturedCourts from './FeaturedCourts';
 
 const HomePage = () => {
      useTitle('Home');
     return (
         <div className='space-y-4'>
             <Navbar/>
-            <Banner/>
-            <About/>
-            <LocationSection/>
-            <Promotions/>
-            <Footer/>
+            <div className='pt-14'>
+                <Banner/>
+                <FeaturedCourts/>
+                <About/>
+                <LocationSection/>
+                <Promotions/>
+                <Footer/>
+            </div>
         </div>
     );
 };

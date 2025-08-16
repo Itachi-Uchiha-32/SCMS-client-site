@@ -64,6 +64,6 @@ A full-featured web application for managing a single sports club's operations, 
 ```env
 VITE_API_BASE_URL=https://scmc-server.vercel.app
 STRIPE_SECRET_KEY= YOUR_STRIPE_KEY_HERE
-DB_USER=scmc_admin
-DB_PASS=Skan2k21
+DB_USER=DB_USER
+DB_PASS=DB_PASS
 ```

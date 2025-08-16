@@ -1,4 +1,3 @@
-// src/pages/Courts.jsx
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import useAxiosSecure from '../../hooks/useAxiosSecure';

@@ -4,8 +4,8 @@
 @import "tailwindcss";
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
-  themes: light --default;
- }
+}
+
 @import 'leaflet/dist/leaflet.css';
 
 .dashboard-link {
