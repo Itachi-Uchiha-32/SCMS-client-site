@@ -7,6 +7,7 @@ import LocationSection from './LocationSection';
 import Promotions from './Promotions';
 import useTitle from '../../hooks/useTitle';
 import FeaturedCourts from './FeaturedCourts';
+import CustomerReviews from './CustomerReviews';
 
 const HomePage = () => {
      useTitle('Home');
@@ -19,6 +20,7 @@ const HomePage = () => {
                 <About/>
                 <LocationSection/>
                 <Promotions/>
+                <CustomerReviews/>
                 <Footer/>
             </div>
         </div>
