@@ -8,6 +8,9 @@ import Promotions from './Promotions';
 import useTitle from '../../hooks/useTitle';
 import FeaturedCourts from './FeaturedCourts';
 import CustomerReviews from './CustomerReviews';
+import UpcomingEvents from './UpcomingEvents';
+import NewsletterSignup from './NewsletterSignup';
+import FAQ from './FAQ';
 
 const HomePage = () => {
      useTitle('Home');
@@ -18,9 +21,12 @@ const HomePage = () => {
                 <Banner/>
                 <FeaturedCourts/>
                 <About/>
+                <UpcomingEvents/>
                 <LocationSection/>
                 <Promotions/>
                 <CustomerReviews/>
+                <FAQ/>
+                <NewsletterSignup/>
                 <Footer/>
             </div>
         </div>

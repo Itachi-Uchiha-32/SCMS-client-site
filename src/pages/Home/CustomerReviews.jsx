@@ -50,26 +50,29 @@ const CustomerReviews = () => {
     <section className="max-w-6xl mx-auto px-4 py-12">
       <h2 className="text-3xl font-bold text-center mb-8">Customer Reviews</h2>
 
-      <div className="relative flex justify-center items-center gap-6 overflow-hidden">
+      <div className="relative flex justify-center items-center gap-6 overflow-hidden h-[300px]">
         {reviews.map((review, idx) => {
-          let className = "absolute transition-all duration-500 transform opacity-0 scale-90";
+          const position = visibleIndices.indexOf(idx);
+          let translate = "translate-x-[200%] opacity-0 scale-90"; // default: hidden right
 
-          if (idx === visibleIndices[0]) className = "relative scale-90 opacity-50";
-          if (idx === visibleIndices[1]) className = "relative scale-105 opacity-100 z-10";
-          if (idx === visibleIndices[2]) className = "relative scale-90 opacity-50";
+          if (position === 0) translate = "-translate-x-full opacity-50 scale-90"; // left
+          if (position === 1) translate = "translate-x-0 opacity-100 scale-105 z-10"; // center
+          if (position === 2) translate = "translate-x-full opacity-50 scale-90"; // right
 
           return (
             <div
               key={review._id}
-              className={`w-72 bg-base-100 shadow-lg rounded-xl p-6 text-center ${className}`}
+              className={`absolute w-72 bg-base-100 shadow-lg rounded-xl p-6 text-center transform transition-all duration-700 ease-in-out ${translate}`}
             >
               <img
                 src={review.avatar || "https://i.ibb.co/2FsfXqM/placeholder.png"}
                 alt={review.name}
-                className="w-16 h-16 rounded-full mx-auto mb-3 object-cover"
+                className="w-16 h-16 rounded-full mx-auto mb-3 object-cover border border-gray-200"
               />
               <h3 className="font-semibold mb-1">{review.name}</h3>
-              <p className="text-sm mb-2">{review.comment}</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2 line-clamp-3">
+                {review.comment}
+              </p>
               <p className="font-bold text-yellow-400">
                 {"★".repeat(review.rating)}
               </p>
