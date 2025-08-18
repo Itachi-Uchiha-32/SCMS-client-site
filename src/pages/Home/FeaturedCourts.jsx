@@ -18,7 +18,7 @@ const FeaturedCourts = () => {
 
   if (isLoading) return <Loading />;
   if (error) {
-    
+    console.log(error)
     return <div className="text-red-500">Error loading featured courts</div>;
   }
 
