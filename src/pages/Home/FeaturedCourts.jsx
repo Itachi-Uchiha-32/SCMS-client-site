@@ -17,7 +17,10 @@ const FeaturedCourts = () => {
   });
 
   if (isLoading) return <Loading />;
-  if (error) return <div className="text-red-500">Error loading featured courts</div>;
+  if (error) {
+    console.log(error)
+    return <div className="text-red-500">Error loading featured courts</div>;
+  }
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-10" data-aos="fade-up">
